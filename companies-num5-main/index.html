@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informed Investor</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #e0e0e0;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      color: #000000;
+      margin: 0;
+    }
+
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color:#000000;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #05bff2;
+      border-bottom: 1px solid #05bff2;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: #000000;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #000000;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 3rem 1rem;
+      gap: 3rem;
+    }
+
+    /* PROFILE CARD */
+    .profile {
+      max-width: 600px;
+      text-align: center;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ffffff55;
+    }
+
+    .profile h2 {
+      margin-top: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .profile h3 {
+      margin-top: 0.5rem;
+      font-weight: 400;
+      color: #000000;
+    }
+
+    .social-links {
+      margin-top: 1.5rem;
+    }
+
+    .social-links a {
+      color: #ffffff;
+      margin: 0 8px;
+      text-decoration: none;
+      font-size: 1.3rem;
+    }
+
+    .about-image-box {
+  background-color: #ffffff; /* soft dark green box */
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-box img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #ffffff;
+}
+
+    /* ABOUT SECTION */
+    .about {
+      max-width: 900px;
+      background: #ffffff;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .about h1 {
+      margin-top: 0;
+      color: #000000;
+    }
+
+    .about p {
+      line-height: 1.6;
+    }
+
+    button {
+      background-color: #243b35;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.4rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #363636;
+      color: #e0e0e0;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h2 {
+      color: #000000;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #ffffff;
+      font-size: 0.9rem;
+      background-color: #e0e0e0;
+      border-top: 1px solid #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>Informed Investor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="main">
+    <h2>Secure Beacon Finances: A Trusted Partner for Smarter, More Confident Trading</h2>
+    <p>Complete analysis of the company | Prevention of fraud | Safe investment</p>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="profile">
+      <img src="your-photo.png" alt="Profile Photo">
+      <h2>Secure Beacon Finances</h2>
+      <h3>sb-finances.com<br>Switzerland</h3>
+         </div>
+
+    <div class="about" id="about">
+      <h2>About company</h2>
+      <p>
+     In a financial world full of fast-moving trends and unpredictable markets, investors don’t just need a platform — they need a partner. 
+        For nearly 15 years, Secure Beacon Finances (SBF) has been exactly that: a reliable, experienced trading company that empowers clients
+        to make smarter decisions, explore new opportunities, and grow their portfolios with confidence. Built on Swiss standards of precision,
+        transparency, and professionalism, SBF has earned a reputation as one of the most dependable trading firms in the country.
+<p>
+ 
+  <h2>Experienced Guidance That Makes a Difference</h2>
+   </p> 
+What truly sets SBF apart is its commitment to personal support. Every client is paired with a dedicated, highly experienced manager who monitors 
+      global market movements daily. These professionals follow real-time trends, track price dynamics, and help investors seize opportunities the
+      moment they appear. Instead of navigating the markets alone, clients have someone by their side — someone who understands strategy, timing, and risk management on a deep level.
+       <p>
+
+      <div class="section" id="interests">
+        <h2>Smart Trading Backed by 15 Years of Expertise</h2>
+        <p>
+     With nearly 15 years of proven trading experience, SBF has built a strong foundation of knowledge and reliability. The company has successfully guided 
+          clients through market volatility, economic cycles, and emerging financial technologies. This long-term expertise translates into stability,
+          informed decisions, and strategies shaped by years of real-world results. It’s this history that makes SBF one of Switzerland’s most respected trading companies.
+        </p>
+  
+         <h2>Access to the World’s Most Dynamic Markets</h2>
+        <p>
+      SBF offers clients a wide range of assets to choose from, allowing them to build flexible, diverse portfolios.
+From traditional markets to one of the fastest-growing financial sectors — cryptocurrency — investors can explore numerous 
+          opportunities within one platform. Whether someone prefers classic trading instruments or wants to step into the digital 
+          asset market, SBF provides the tools and guidance to do it safely and strategically.
+
+        </p> 
+   
+        <h2>Client Care at the Heart of Everything</h2>
+        <ul>
+     SBF’s philosophy is simple: every client deserves attention, support, and a high-quality trading experience. The company prioritizes 
+          satisfaction not only with financial results but also with the service itself. Clear communication, personalized guidance, 
+          and ongoing assistance create an environment where clients feel valued, informed, and secure.
+          </p>
+ <h2>A Company Built For Your Growth</h2>
+        <ul>
+     By combining expert market insight, personalized support, diversified trading opportunities, and years of experience, 
+          SBF offers something rare in today’s financial world — a trading partnership built on trust. Whether you’re expanding your 
+          investment strategy or entering the markets for the first time, SBF provides the experience and dedication needed to help you grow with confidence.
+          </p>
+
+              </ul>
+          
+         <div class="about-image-box">
+  <img src="your-photo2.jpg" alt="About section image">
+</div>
+      </div>
+    </div>
+   </div>
+
+
